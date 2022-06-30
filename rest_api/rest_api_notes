@@ -1,0 +1,29 @@
+API:
+Application Programming Interface.
+-> Application can used by the user using an Interface(endpoints).
+
+REST:
+REpresentational State Transfer.
+-> Architectural style of the web.
+-> A standard/ set of guidelines by which we can structure and create API's.
+-> REST API's have identifiable properties.
+
+REST properties:
+
+They make use of HTTP methods.
+
+    - GET -> Used to retrieve data from the server.
+
+    - POST -> Used to send data to the server.
+
+    - PUT -> Used to update data.
+
+    - DELETE -> Used to delete data.
+
+They make use of HTTP Status codes.
+
+    Examples:
+
+        - 200 means OK.
+        - 400 means resource not found.
+        - 500 means server error.
