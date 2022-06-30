@@ -27,3 +27,8 @@ They make use of HTTP Status codes.
         - 200 means OK.
         - 400 means resource not found.
         - 500 means server error.
+
+res.end(); => It is used to stop the process there.
+
+res.send(); => It is used to send the anything to the web page.
+
