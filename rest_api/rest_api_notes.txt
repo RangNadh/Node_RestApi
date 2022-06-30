@@ -32,3 +32,9 @@ res.end(); => It is used to stop the process there.
 
 res.send(); => It is used to send the anything to the web page.
 
+
+Middleware: The code that runs in between the Request and Response.
+
+        -> Middleware is a route handler.
+
+
