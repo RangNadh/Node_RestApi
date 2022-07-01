@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 //create user Schema & model
-const UserSchema = new Schema({
+const NinjaSchema = new Schema({
     name: {
         type: String,
         required: [true, 'Name field is required']
@@ -18,6 +18,6 @@ const UserSchema = new Schema({
 
 });
 
-const User = mongoose.model('user', UserSchema);
+const Ninja = mongoose.model('ninja', NinjaSchema);
 
-module.exports = 'User';
+module.exports = 'Ninja';
